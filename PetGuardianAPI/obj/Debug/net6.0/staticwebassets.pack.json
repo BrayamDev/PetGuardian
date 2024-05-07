@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Lenovo Ideapad\\source\\repos\\PetGuardianAPI\\PetGuardianAPI\\wwwroot\\Adoptantes\\14b52868-a2d2-4a18-bc4e-a16e0d1048f5.jpg",
+      "PackagePath": "staticwebassets\\Adoptantes\\14b52868-a2d2-4a18-bc4e-a16e0d1048f5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Ideapad\\source\\repos\\PetGuardianAPI\\PetGuardianAPI\\wwwroot\\Adoptantes\\20d3cae1-97bd-4ff8-bda6-6823dd0d23e0.webp",
+      "PackagePath": "staticwebassets\\Adoptantes\\20d3cae1-97bd-4ff8-bda6-6823dd0d23e0.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Ideapad\\source\\repos\\PetGuardianAPI\\PetGuardianAPI\\wwwroot\\Adoptantes\\35e83ac2-486e-444f-ac41-9fa7050f596d.webp",
+      "PackagePath": "staticwebassets\\Adoptantes\\35e83ac2-486e-444f-ac41-9fa7050f596d.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Ideapad\\source\\repos\\PetGuardianAPI\\PetGuardianAPI\\wwwroot\\Adoptantes\\a76b47a1-23a2-4c1f-9ad9-99099c6e7e63.webp",
+      "PackagePath": "staticwebassets\\Adoptantes\\a76b47a1-23a2-4c1f-9ad9-99099c6e7e63.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Ideapad\\source\\repos\\PetGuardianAPI\\PetGuardianAPI\\wwwroot\\Adoptantes\\e3bb8dbd-0dcc-4552-b4e2-57063a5d053d.jpg",
+      "PackagePath": "staticwebassets\\Adoptantes\\e3bb8dbd-0dcc-4552-b4e2-57063a5d053d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Ideapad\\source\\repos\\PetGuardianAPI\\PetGuardianAPI\\wwwroot\\Animales\\208e970e-5e4c-4488-95f8-fd8321e4ea62.webp",
+      "PackagePath": "staticwebassets\\Animales\\208e970e-5e4c-4488-95f8-fd8321e4ea62.webp"
+    },
+    {
+      "Id": "C:\\Users\\Lenovo Ideapad\\source\\repos\\PetGuardianAPI\\PetGuardianAPI\\wwwroot\\Animales\\917b0987-95ad-41b0-bbfa-01cde7cdc224.webp",
+      "PackagePath": "staticwebassets\\Animales\\917b0987-95ad-41b0-bbfa-01cde7cdc224.webp"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.PetGuardianAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.PetGuardianAPI.props",
+      "PackagePath": "build\\PetGuardianAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.PetGuardianAPI.props",
+      "PackagePath": "buildMultiTargeting\\PetGuardianAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.PetGuardianAPI.props",
+      "PackagePath": "buildTransitive\\PetGuardianAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

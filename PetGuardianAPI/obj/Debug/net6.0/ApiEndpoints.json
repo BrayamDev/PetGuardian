@@ -1,0 +1,729 @@
+[
+  {
+    "ContainingType": "PetGuardianAPI.Controllers.AdoptantesController",
+    "Method": "GetAdoptantes",
+    "RelativePath": "api/Adoptantes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[PetGuardianAPI.DTOs.AdoptantesDTO, PetGuardianAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PetGuardianAPI.Controllers.AdoptantesController",
+    "Method": "PostAdoptantes",
+    "RelativePath": "api/Adoptantes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "foto",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "nombreAdoptante",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "numeroDocumento",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "numeroContacto",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "numeroEmergencia",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "direccionResidencia",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PetGuardianAPI.Controllers.AdoptantesController",
+    "Method": "GetAdoptantesById",
+    "RelativePath": "api/Adoptantes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PetGuardianAPI.DTOs.AdoptantesDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PetGuardianAPI.Controllers.AdoptantesController",
+    "Method": "PutAdoptantes",
+    "RelativePath": "api/Adoptantes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "foto",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "nombreAdoptante",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "numeroDocumento",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "numeroContacto",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "numeroEmergencia",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "direccionResidencia",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PetGuardianAPI.Controllers.AdoptantesController",
+    "Method": "PatchAdoptantes",
+    "RelativePath": "api/Adoptantes/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "PatchDocument",
+        "Type": "Microsoft.AspNetCore.JsonPatch.Operations.Operation[]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PetGuardianAPI.Controllers.AdoptantesController",
+    "Method": "DeleteAdoptantes",
+    "RelativePath": "api/Adoptantes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PetGuardianAPI.Controllers.AnimalesController",
+    "Method": "GetAnimales",
+    "RelativePath": "api/Animales",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[PetGuardianAPI.DTOs.AnimalesDTO, PetGuardianAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PetGuardianAPI.Controllers.AnimalesController",
+    "Method": "PostAnimales",
+    "RelativePath": "api/Animales",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "imagen",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "nombreAnimal",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "urlDocumentos",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fechaIngreso",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "estadoSalud",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "observaciones",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "procedencia",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "estado",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "edad",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "raza",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sexo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "tipoAnimalId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "vacunasId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "fundacionId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "adoptanteId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PetGuardianAPI.Controllers.AnimalesController",
+    "Method": "GetAnimalesById",
+    "RelativePath": "api/Animales/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PetGuardianAPI.DTOs.AnimalesDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PetGuardianAPI.Controllers.AnimalesController",
+    "Method": "PutAnimales",
+    "RelativePath": "api/Animales/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "imagen",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "nombreAnimal",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "urlDocumentos",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fechaIngreso",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "estadoSalud",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "observaciones",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "procedencia",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "estado",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "edad",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "raza",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "sexo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "tipoAnimalId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "vacunasId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "fundacionId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "adoptanteId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PetGuardianAPI.Controllers.AnimalesController",
+    "Method": "PatchAnimales",
+    "RelativePath": "api/Animales/{id}",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "PatchDocument",
+        "Type": "Microsoft.AspNetCore.JsonPatch.Operations.Operation[]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PetGuardianAPI.Controllers.AnimalesController",
+    "Method": "DeleteAnimales",
+    "RelativePath": "api/Animales/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PetGuardianAPI.Controllers.FundacionesController",
+    "Method": "GetFundaciones",
+    "RelativePath": "api/Fundaciones",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[PetGuardianAPI.DTOs.FundacionDTO, PetGuardianAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PetGuardianAPI.Controllers.FundacionesController",
+    "Method": "PostFundaciones",
+    "RelativePath": "api/Fundaciones",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fundacionCreacionDTO",
+        "Type": "PetGuardianAPI.DTOs.FundacionCreacionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PetGuardianAPI.Controllers.FundacionesController",
+    "Method": "GetFundacionesById",
+    "RelativePath": "api/Fundaciones/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PetGuardianAPI.DTOs.FundacionDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PetGuardianAPI.Controllers.FundacionesController",
+    "Method": "PutFundaciones",
+    "RelativePath": "api/Fundaciones/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "fundacionCreacionDTO",
+        "Type": "PetGuardianAPI.DTOs.FundacionCreacionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PetGuardianAPI.Controllers.FundacionesController",
+    "Method": "DeleteFundaciones",
+    "RelativePath": "api/Fundaciones/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PetGuardianAPI.Controllers.TipoAnimalController",
+    "Method": "GetTipoAnimal",
+    "RelativePath": "api/TipoAnimal",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[PetGuardianAPI.DTOs.TipoAnimalDTO, PetGuardianAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PetGuardianAPI.Controllers.TipoAnimalController",
+    "Method": "PostTipoAnimal",
+    "RelativePath": "api/TipoAnimal",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tipoAnimalCreacionDTO",
+        "Type": "PetGuardianAPI.DTOs.TipoAnimalCreacionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PetGuardianAPI.Controllers.TipoAnimalController",
+    "Method": "GetTipoAnimalById",
+    "RelativePath": "api/TipoAnimal/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PetGuardianAPI.DTOs.TipoAnimalDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PetGuardianAPI.Controllers.TipoAnimalController",
+    "Method": "PutTipoAnimal",
+    "RelativePath": "api/TipoAnimal/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tipoAnimalCreacionDTO",
+        "Type": "PetGuardianAPI.DTOs.TipoAnimalCreacionDTO",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PetGuardianAPI.Controllers.TipoAnimalController",
+    "Method": "DeleteTipoAnimal",
+    "RelativePath": "api/TipoAnimal/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PetGuardianAPI.Controllers.VacunasController",
+    "Method": "GetVacunas",
+    "RelativePath": "api/Vacunas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[PetGuardianAPI.DTOs.VacunasDTO, PetGuardianAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PetGuardianAPI.Controllers.VacunasController",
+    "Method": "PostVacunas",
+    "RelativePath": "api/Vacunas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vacunasCreacionDTO",
+        "Type": "PetGuardianAPI.DTOs.VacunasCreacionDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PetGuardianAPI.Controllers.VacunasController",
+    "Method": "GetVacunasById",
+    "RelativePath": "api/Vacunas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "PetGuardianAPI.DTOs.VacunasDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "PetGuardianAPI.Controllers.VacunasController",
+    "Method": "PutVacunas",
+    "RelativePath": "api/Vacunas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "vacunasCreacionDTO",
+        "Type": "PetGuardianAPI.DTOs.VacunasCreacionDTO",
+        "IsRequired": true
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "PetGuardianAPI.Controllers.VacunasController",
+    "Method": "DeleteVacunas",
+    "RelativePath": "api/Vacunas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
