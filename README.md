@@ -7,8 +7,11 @@
   <td width="50%">
     <h3 align="center">Sistema PetGuardian</h3>
     <div align="center">
-      <a href="https://github.com/ArisGuimera/Android-Expert" target="_blank"><img src="https://i.postimg.cc/X721sNpr/CAPTURA-1.png" width="400" alt="Sistema control de obra"></a>
-    </div>                                                                                    
+      <img src="https://i.postimg.cc/X721sNpr/CAPTURA-1.png" width="400" alt="Sistema control de obra">
+    </div>  
+    <div align="center">
+      <img src="https://i.postimg.cc/44zfqsLP/Base-de-datos.png" width="400" alt="Sistema control de obra">
+    </div> 
   </td>
 
   <td width="50%">
