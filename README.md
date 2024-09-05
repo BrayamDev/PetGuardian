@@ -22,6 +22,16 @@
       <img src="https://i.postimg.cc/BnkYGh5s/Captura-de-pantalla-2024-05-07-152715.png" width="400" alt="Curso arquitectura MVVM">
     </div> 
   </td>
+
+<td width="50%">
+    <div align="center">
+      <img src="https://i.postimg.cc/6Q9RL4mt/image.png" width="400">
+    </div>      
+    <div align="center">
+      <img src="https://i.postimg.cc/6Q9RL4mt/image.png" width="400" >
+    </div> 
+  </td>
+ 
 </table>                                                                                 
 
 
