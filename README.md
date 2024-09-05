@@ -23,7 +23,7 @@
     </div> 
   </td>
 
-<td width="50%">
+  <td width="50%">
     <div align="center">
       <img src="https://i.postimg.cc/6Q9RL4mt/image.png" width="400">
     </div>      
@@ -31,7 +31,6 @@
       <img src="https://i.postimg.cc/6Q9RL4mt/image.png" width="400" >
     </div> 
   </td>
- 
 </table>                                                                                 
 
 
